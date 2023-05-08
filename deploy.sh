@@ -1,4 +1,4 @@
 #!/bin/bash
-unzip wordpress.zip
+unzip wordpress-$number.zip
 cp -r * var/www/html
 rm -rf*
